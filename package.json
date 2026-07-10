@@ -1,0 +1,16 @@
+{
+  "name": "ym-raiox-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend do Raio-X Estratégico — YM Marketing & Negócios. Gate de pagamento (Asaas) e redação do relatório (Anthropic).",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "test:local": "node testes/smoke.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
